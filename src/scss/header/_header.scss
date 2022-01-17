@@ -1,0 +1,65 @@
+@use '../custom' as *;
+
+
+.header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include media-breakpoint-up(md) {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+
+    
+
+
+}
+
+h1 {
+    font-family: 'Volkhov', serif;
+    color: $azuloscuro;
+    font-weight: 900;
+    font-size: 3.375rem;
+
+ 
+
+
+
+
+
+}
+h3 {
+    font-family: 'Volkhov', serif;
+    color: $azuloscuro;
+    font-weight: 700;
+    font-size: 2.580rem;
+
+
+
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: $azuloscuro;
+    font-weight: 600;
+    font-size: 1.880rem;
+
+
+}
+
+
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+

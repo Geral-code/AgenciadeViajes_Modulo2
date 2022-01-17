@@ -1,0 +1,33 @@
+$grafito: #2c2a30;
+$blanco:#ffffff;
+$yellow:#F1A501;
+$navy-blue: #14183E;
+$azulclaro: #5E6282;
+$naranjo: #DF6951;
+$azuloscuro: #181E4B;
+$gray-100: #f8f9fa;
+//Asignar a la paleta de colores de bootstrap
+$primary: $grafito;
+$secondary: $navy-blue;
+$success: $yellow;
+$default: $azulclaro;
+$danger: $naranjo;
+$info: $azuloscuro;
+$carouselcap: $gray-100;
+
+
+
+
+
+
+//Carousel
+
+
+$carousel-caption-width: 40%;
+
+
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

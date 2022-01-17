@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travoo - Tu Nueva Forma de Viajar</title>
+    <link rel="stylesheet" href="build/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicons/favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="/img/favicons/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="build/css/styles.css">
+    
+    
+
+
+</head>
+<body>
+<!-- Navbar -->
+  <main class="main" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block bg-light padding-transition" data-navbar-on-scroll="data-navbar-on-scroll">
+      <div class="container"><a class="navbar-brand" href="index.html"><img src="/img/Travoo.png" height="34" alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+        <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="#servicios">Servicio</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="#destinos">Destinos</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="#testimonios">Testimonios</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="/reserva2.html">Reserva</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold" aria-current="page" href="/contacto.html">Contacto</a></li>
+            <li class="nav-item px-3 px-xl-4">
+              <a class="btn btn-outline-success order-1 order-lg-0 fw-bold"  href= ""data-bs-toggle= "modal" data-bs-target= #exampleModal01> Inscríbete</a></li>
+            <li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Idioma</a>
+              <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">Ingles</a></li>
+                <li><a class="dropdown-item" href="#!">Portugues</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section style="padding-top: 7rem;">
+      
+      </div>
+<!-- Modal 01 -->
+      <div class="modal fade" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Recibe las Mejores Ofertas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+               <!-- Name input -->
+               <div class="form-outline mb-4">
+                <label class="form-label" for="form4Example1">Nombre</label>  
+                <input type="text" id="form4Example1" class="form-control" placeholder="Escribe Nombre"/>
+                
+              </div>
+
+              
+               <!-- Email input -->
+               <div class="form-outline mb-4">
+                <label class="form-label" for="form4Example2">Correo Electrónico</label>  
+                <input type="email" id="form4Example2" class="form-control" placeholder="Escribe tu Correo"/>
+                
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success text-white" data-bs-dismiss="modal">Inscribete</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Fin Modal 01 -->
+
+
+
+
+
+
+
+      <!-- Fin Navbar -->
+<!-- Portada -->
+      <div class="container">
+        <div class="row align-items-center">
+        
+          <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 hero-img img-fluid" src="/img/hero/travoo_portada.png" alt="mujer viajera"></div>
+          <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
+            <h4 class="fw-bold text-danger mb-4">Los mejores destinos alrededor del mundo</h4>
+            <h1 class="fw-bold mb-4 ">Viaja, disfruta y vive una nueva vida.</h1>
+            <h5>
+              <p class="mb-4 fw-normal">Con Travoo podrás encontrar pasajes de avión, hoteles y tours  a los mejores precios,<br class="d-none d-xl-block" /> y en un sólo un click</p>
+
+            </h5>
+            <div class="text-center text-md-start">
+              <a class="btn btn-success btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow text-white" href="#!" role="button">Conoce más</a>
+
+              <div class="w-100 d-block d-md-none"></div><a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo"><span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"> <img src="/img/hero/play.svg" width="15" alt="play video"/></span></a><span class="fw-medium">Ver Video</span>
+              <div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <iframe class="rounded" style="width:100%;max-height:500px;" height="500px" src="https://www.youtube.com/embed/2b2gJu-g3qE" title="VideoItalia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+                            
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Fin de Portada -->
+
+<!-- Seccion Servicios -->
+
+<section class="pt-5 pt-md-9" id="servicios">
+<!-- Container -->
+  <div class="container">
+    
+    <div class="mb-7 text-center">
+      <h5 class="text-secondary mt-5 ">Servicios</h5>
+      <h3 class="fs-xl-10 fs-lg-8 fs-7 mb-5 fw-bold font-cursive ">Ofrecemos lo Mejor Para tus Vacaciones</h3>
+    </div>
+
+    <div class="row">
+      <!-- Card 1 -->
+    
+      <div class="col-lg-3 col-sm-6 mb-6">     
+        <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+          <div class="card-body p-xxl-5 p-4"> <img src="/img/category/icon1.png" width="75" alt="Clima" />
+            <h4 class="mb-3">Calcula el clima</h4>
+            <p class="mb-0 fw-medium">Nuestra app te mostrará el clima de tus destinos elegidos.</p>       
+          </div>
+        </div>
+      </div>
+<!--Fin Card 1  -->
+
+<!--Card 2  -->
+      <div class="col-lg-3 col-sm-6 mb-6">
+        <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+          <div class="card-body p-xxl-5 p-4"> <img src="/img/category/icon2.png" width="75" alt="Mejores Vuelos" />
+            <h4 class="mb-3">Mejores Vuelos</h4>
+            <p class="mb-0 fw-medium">Tenemos una amplia oferta de tickets aéreos a los mejores precios.</p>          
+          </div>
+        </div>
+      </div>
+<!-- Fin Card 2  -->  
+
+<!--  Card 3  --> 
+<div class="col-lg-3 col-sm-6 mb-6">
+  <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+    <div class="card-body p-xxl-5 p-4"> <img src="/img/category/icon3.png" width="75" alt="Service" />
+      <h4 class="mb-3">Eventos Locales</h4>
+      <p class="mb-0 fw-medium">Te informaremos de los mejores eventos cerca de tu destino segun tus gustos.</p>
+    </div>
+  </div>
+</div>
+<!-- Fin Card 3 -->
+
+<!-- Card 4 -->
+<div class="col-lg-3 col-sm-6 mb-6">
+  <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+    <div class="card-body p-xxl-5 p-4"> 
+      <img src="/img/category/icon4.png" width="75" alt="Service"/>
+      <h4 class="mb-3">Personalizado</h4>
+      <p class="mb-0 fw-medium">Según tu historial te recomendamos los mejores destinos.</p>
+    </div>
+  </div>
+</div>
+<!-- Fin Card 4 -->
+    </div>
+  </div>
+
+  <!-- Fin Container -->
+</section>
+<!-- Fin de Seccion Servicios -->
+
+<!--  Seccion Destinos -->
+
+<!-- Roma -->
+<section class="pt-5" id="destinos">
+  <div class="container">
+    <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"></div>
+    <div class="mb-7 text-center">
+      <h5 class="text-secondary mt-5">Los más Vendidos </h5>
+      <h3 class="fs-xl-10 fs-lg-8 fs-7 mb-5 fw-bold font-cursive text-capitalize">Destinos Top</h3>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card overflow-hidden shadow">
+          <img class="card-img-top" src="/img/dest/dest1.jpg" alt="Roma" />
+          <div class="card-body py-4 px-3">
+            <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+              <h4 class="text-secondary fw-medium">
+                <a class="link-900 text-decoration-none stretched-link"  data-bs-toggle= "modal" data-bs-target="#exampleModal" href="#!">Roma</a>
+                
+              </h4><span class="fs-1 fw-medium">USD $2,420</span>
+            </div>
+            <div class="d-flex align-items-center"> <img src="/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="flecha navegacion"/><span class="fs-0 fw-medium">Duración: 10 días</span></div>
+          </div>   
+        </div>
+      </div>
+
+
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Gratis un Tour al Vaticano</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="/img/dest/Tour1.png" width= 100% height= 100%>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success text-white" data-bs-dismiss="modal">Comprar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Roma -->
+
+
+<!-- Londres -->
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card overflow-hidden shadow"> <img class="card-img-top" src="/img/dest/dest2.jpg" alt="Londres" />
+          <div class="card-body py-4 px-3">
+            <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+              <h4 class="text-secondary fw-medium">
+                <a class="link-900 text-decoration-none stretched-link" data-bs-toggle= "modal" data-bs-target="#exampleModal2" href="#!">Londres</a>
+              </h4><span class="fs-1 fw-medium">USD $3,420</span>
+            </div>
+            <div class="d-flex align-items-center"> <img src="/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">Duración: 12 días</span></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 2 -->
+
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Gratis un Tour a Liverpool</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="/img/dest/Tour2.png" width= 100% height= 100%>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success text-white" data-bs-dismiss="modal">Comprar</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2 -->
+
+
+
+
+      <!-- Londres -->
+
+
+
+
+
+
+<!-- Europa -->
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card overflow-hidden shadow"> <img class="card-img-top" src="/img/dest/dest3.jpg" alt=" Europa" />
+          <div class="card-body py-4 px-3">
+            <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+              <h4 class="text-secondary fw-medium">
+                <a class="link-900 text-decoration-none stretched-link" data-bs-toggle= "modal" data-bs-target="#exampleModal3" href="#!">Europa</a>
+              </h4><span class="fs-1 fw-medium">USD $7.290</span>
+            </div>
+            <div class="d-flex align-items-center"> <img src="/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">Duración: 28 días</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+
+  
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Gratis un Tour a la Torre Eiffel</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="/img/dest/Tour3.png" width= 100% height= 100%>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success text-white" data-bs-dismiss="modal">Comprar</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Modal 3 -->
+
+
+<!-- Fin Europa -->
+
+
+</section>
+<!-- Fin Seccion Destinos -->
+
+
+
+
+<!-- Seccion Testimonial -->
+ <section class= "pt-5 pb-5 mt-5" id="testimonios">
+  <div class="container mt-5 mb-5">
+    <div class="position-absolute d-none d-xl-block ms-xl-n4"></div>
+    <div class="mb-7 text-center">
+      <h5 class="text-secondary">Testimonios </h5>
+      <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">¿Qué Dicen de Nosotros?</h3>
+    </div>
+
+    
+  <div class="container mt-5">
+
+    <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="carousel-caption text-end">
+            <h5>Michelle Souza</h5>
+            <p>"Travoo es una excelente opción para salir de vacaciones".</p>
+          </div>
+          <img class="img-fluid" src="/img/testimonial/Test5.png" alt="mujer sonriendo">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-caption text-start fs-5">
+            <h5>Kim Robledo</h5>
+            <p>"Travoo es muy confiable".</p>
+          </div>
+          <img class="img-fluid" src="/img/testimonial/Test6.png" alt="mujer fotografiando">
+        </div>
+
+
+
+        <div class="carousel-item">
+          <div class="carousel-caption text-end fs-5">
+            <h5>Ramiro Canvas</h5>
+            <p>"Travoo, tiene las mejores tarifas".</p>
+          </div>
+          <img class="img-fluid" src="/img/testimonial/Test9.png" alt="Joven sentado">
+        </div>
+
+      </div>
+
+            <!-- Controladores-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+              <!-- esto va quedar oculto, lo va poder leer sistemas de voz, para personas no videntes.-->
+            </button>
+      
+            <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+              <!-- esto va quedar oculto, lo va poder leer sistemas de voz, para personas no videntes.-->
+            </button>
+            <!-- /Controladores -->
+            <!-- Indicadores-->
+              <div class="carousel-indicators">
+              <button 
+                type="button"
+                class="active" 
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="0"
+                aria-label="Slide 1"
+                >
+              </button>
+      
+              <button 
+                type="button" 
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                >
+              </button>
+      
+
+      
+              <button 
+                type="button" 
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              >
+            </button>
+      
+              </div>
+            <!-- /Indicadores-->
+          </div>
+      
+        </div>
+ 
+
+ </section>
+
+
+<!-- Fin Seccion Testimonial -->
+
+<!-- Footer  -->
+<footer class="mt-5 pt-5 pb-0 pb-lg-4">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0"> <img class="mb-4" src="/img/Travoo.png" width="150" alt="logo" />
+        <p class="fs--1 text-secondary mb-0 fw-medium">Reserva tu viaje en un minuto y ten el control de tu destino.</p>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Empresa</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="link-900 fs-5 text-decoration-none" href="#!">Nosotros </a></li>
+          <li class="mb-2"><a class="link-900 fs-5 text-decoration-none" href="#!">Empleos</a></li>
+          <li class="mb-2"><a class="link-900 fs-5 text-decoration-none" href="#!">Mobile</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Contacto</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="link-900 fs-5 text-decoration-none" href="#!">Preguntas Frecuentes</a></li>
+          <li class="mb-2"><a class="link-900 fs-5 text-decoration-none" href="#!">Quiero ser Afiliado</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Más</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="link-900 fs-5  text-decoration-none" href="#!">Tarifas Aéreas</a></li>
+          <li class="mb-2"><a class="link-900 fs-5  text-decoration-none" href="#!">Aerolineas</a></li>
+          <li class="mb-2"><a class="link-900 fs-5  text-decoration-none" href="#!">Tips para Encontrar Mejores Tarifas</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
+        
+        <div class="social-links d-none d-md-flex align-items-center justify-content-between mb-4">
+          <a href="#" class="twitter"><i class="fab fa-twitter"> </i></a>
+          <a href="#" class="facebook"><i class="fab fa-facebook"> </i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"> </i></a>
+         
+        </div>
+
+
+
+       
+        <h4 class="fw-medium font-sans-serif text-secondary mb-3">Descubre Nuestra App</h4>
+        <div class="d-flex align-items-center"> <a href="#!"> <img class="me-2" src="/img/play-store.png" alt="play store" /></a><a href="#!"> <img src="/img/apple-store.png" alt="apple store" /></a></div>
+      </div>
+    </div>
+  </div><!-- end of .container-->
+
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+
+
+<div class="py-5 text-center">
+  <p class="mb-0 text-secondary fs--1 fw-medium">Todos los Derechos Reservados - Travoo</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+ 
+<!-- Fin de Footer  -->
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
